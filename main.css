@@ -1,0 +1,71 @@
+/* All colours are from the Google Material Design palette
+ * http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+ */
+
+/*
+ * General
+ */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #e8eaf6; /* Indigo 50 */
+  color: #1a237e; /* Indigo 900 */
+
+  font-size: 14pt;
+}
+
+/*
+ * Header
+ */
+header {
+  background-color: #3f51b5; /* Indigo 500 */
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+header>h1:before {
+  content: "((";
+  color: #e8eaf6; /* Indigo 50 */
+}
+header>h1:after {
+  content: "))";
+  color: #e8eaf6; /* Indigo 50 */
+}
+header>p {
+  font-style: italic;
+}
+
+/*
+ * Footer
+ */
+footer {
+  background-color: #1a237e; /* Indigo 900 */
+  color: white;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+/*
+ * Content sections
+ */
+section {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+section>p, section>ul {
+  margin-left: 1rem;
+}
+
+/*
+ * Links
+ */
+a:link, a:hover {
+  color: #5677fc; /* Blue 500 */
+}
+a:visited {
+  color: #673ab7; /* Deep Purple 500 */
+}
+a:active {
+  color: #e51c23; /* Red 500 */
+}
